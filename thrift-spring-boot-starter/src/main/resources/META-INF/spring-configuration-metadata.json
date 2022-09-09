@@ -1,0 +1,29 @@
+{
+  "groups": [
+    {
+      "name": "thrift.client",
+      "type": "com.willing.thrift.willing.ThriftClientProperties",
+      "sourceType": "com.willing.thrift.willing.ThriftClientProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "thrift.client.async",
+      "type": "java.util.Map<java.lang.Class<? extends org.apache.thrift.async.TAsyncClient>,java.lang.String>",
+      "description": "Key 为 TAsyncClient，value 为 zkNode",
+      "sourceType": "com.willing.thrift.willing.ThriftClientProperties"
+    },
+    {
+      "name": "thrift.client.service",
+      "type": "java.util.Map<java.lang.Class<? extends org.apache.thrift.TServiceClient>,java.lang.String>",
+      "description": "Key 为 TServiceClient，value 为 zkNode",
+      "sourceType": "com.willing.thrift.willing.ThriftClientProperties"
+    },
+    {
+      "name": "thrift.client.zk-address",
+      "type": "java.lang.String",
+      "sourceType": "com.willing.thrift.willing.ThriftClientProperties"
+    }
+  ],
+  "hints": []
+}

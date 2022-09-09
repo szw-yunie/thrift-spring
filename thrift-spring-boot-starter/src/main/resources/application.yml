@@ -1,0 +1,18 @@
+spring:
+  main:
+    web-application-type: none
+  jta:
+    atomikos:
+      properties:
+        recovery:
+          forget-orphaned-log-entries-delay:
+  activemq:
+    broker-url:
+
+
+thrift:
+  client:
+    zk-address: 1.15.86.97:2181,49.234.8.134:2181,81.68.77.250:2181
+    services:
+      com.willing.thrift.api.report.ReportApiService.Client: /willing_bigdata/test/report_service
+
